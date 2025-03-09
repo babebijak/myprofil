@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil [Nama Anda]</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Halo, Saya M Maulana Yusuf</h1>
+            <p>Saya adalah Seorang Wirausaha yang bersemangat dan terus belajar skill baru.</p>
+            <a href="#portfolio" class="btn">Lihat Portofolio Saya</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Saya sedang merintis usaha baru home industri kategori home cleaner. saya terus belajar dan menambah skill baru.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portofolio Saya</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="gambar1.jpg" alt="Proyek 1">
+                <h3>E Commerce Multi Seller</h3>
+                <p>Toko online multi brand.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="gambar2.jpg" alt="Proyek 2">
+                <h3>Multi Sender</h3>
+                <p>Tools marketing 3 in 1, Whatsapp, Email dan SMS Broadcaster.</p>
+            </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <h2>Hubungi Saya</h2>
+        <form action="proses_kontak.php" method="post">
+            <input type="text" name="nama" placeholder="Nama Anda" required>
+            <input type="email" name="email" placeholder="Email Anda" required>
+            <textarea name="pesan" placeholder="Pesan Anda" required></textarea>
+            <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 [M Maulana Yusuf]. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
